@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="gosterge"></div>
+    <button  id="renkDegistir">Change COLOR</button>
+
+
+    <script>
+        
+var renkBtn= document.getElementById("renkDegistir");
+
+// renkBtn.onclick=()=>{
+
+    renkBtn.onclick = function()
+    {
+    var renk1=Math.round(Math.random()*255);
+    var renk2=Math.round(Math.random()*255);
+    var renk3=Math.round(Math.random()*255);
+    var renk4=Math.round(Math.random()*255);
+    var renk5=Math.round(Math.random()*255);
+    var renk6=Math.round(Math.random()*255);
+    var renk7=Math.round(Math.random()*255);
+    var renk8=Math.round(Math.random()*255);
+    var renk9=Math.round(Math.random()*255);
+    var r=#FFFFFF
+    
+    document.body.style.background="linear-gradient(rgb("+renk1+","+renk2+","+renk3+"),rgb("+renk4+","+renk5+","+renk6+"), rgb("+renk7+","+renk8+","+renk9+"))";
+    // document.body.style.background="rgb("+renk1+","+renk2+","+renk3+")";
+    renkBtn.style.background="linear-gradient(rgb("+renk9+","+renk5+","+renk3+"),rgb("+renk4+","+renk1+","+renk8+"), rgb("+renk2+","+renk3+","+renk6+"))";
+    document.querySelector("#gosterge").innerHTML=`"Backgrouncolor: "${document.body.style.background}`
+
+    }
+    </script>
+    
+</body>
+</html>
