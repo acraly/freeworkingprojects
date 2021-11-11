@@ -1,0 +1,109 @@
+body {
+  background-color: #bdc3c7;
+  width: 100%;
+}
+
+body .nav-center {
+  width: 100%;
+  background-color: #ecf0f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .nav-center .nav-header {
+  background-color: #ecf0f1;
+}
+
+body .nav-center .nav-header .header-text {
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .nav-center .nav-header .nav-button {
+  display: none;
+}
+
+body .nav-center .links {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .nav-center .social {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .nav-center .social a {
+  color: #2e86de;
+}
+
+body .nav-center a {
+  text-decoration: none;
+  color: black;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  body .nav-center {
+    display: block;
+  }
+  body .nav-center .nav-header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: auto;
+  }
+  body .nav-center .nav-header .nav-button {
+    color: #2e86de;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: none;
+    font-size: 20px;
+    margin-right: 1rem;
+  }
+  body .nav-center .nav-header .buttonanimate {
+    -webkit-transform: rotateZ(90deg);
+            transform: rotateZ(90deg);
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  body .nav-center .links {
+    display: none;
+  }
+  body .nav-center .social {
+    display: none;
+  }
+  body .nav-center .link {
+    display: block;
+    height: 8rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
