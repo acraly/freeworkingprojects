@@ -1,0 +1,31 @@
+.container{
+    background-color: #ffcccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+ }
+ h1{
+     font-size: 3rem;
+     color: chocolate;
+ }
+
+button{
+    margin-top: 2rem;
+     margin-left: 2rem;
+}
+.btn{
+    height: 3rem;
+    /* width: 10rem; */
+    border-radius: 1rem;
+    border: none;
+    background-color: darkkhaki;
+    color: darkmagenta;
+    font-size: 2rem;
+
+}
+#display{
+    color: yellow;
+    font-size: 8rem;
+}
