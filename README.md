@@ -8,7 +8,8 @@
 3-[navbar](https://acraly.github.io/freeworkingprojects/navbar)  <br/>
 
 4-[Student-Registration-Form](https://acraly.github.io/freeworkingprojects/Student-Registration-Form)  <br/>
- <br/>
+
+5-[daily_currency_rate](https://acraly.github.io/freeworkingprojects/daily_currency_rate) <br/>
 
 
 
